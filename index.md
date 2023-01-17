@@ -1,3 +1,5 @@
+![img](https://miro.medium.com/max/1400/1*m0H6-tUbW6grMlezlb52yw.png)
+
 ## Practical 1
 
 ### Printing function
@@ -221,28 +223,7 @@ sJ
 sC
 s
 ```
-## Practical 6
 
-#### _Input_
-```py
-b="colombo"
-c=b.replace("o","a")
-print(c)#calambo
-
-#multiply the input values
-x=input("enter your name")#ICT
-print(x*3)#ICTICTICT
-
-#add the value
-print(x+x)#ICTICTICT
-```
-#### _Output_
-```
-calamba
-enter your nameWenura
-WenuraWenuraWenura
-WenuraWenura
-```
 ## Practical 7
 
 #### _Input_
@@ -1073,15 +1054,140 @@ enter number2
 2 x 12 = 24
 ```
 
+## Practical 28
 
+#### _Input_
+```py
+b="colombo"
+c=b.replace("o","a")
+print(c)#calambo
 
+#multiply the input values
+x=input("enter your name")#ICT
+print(x*3)#ICTICTICT
 
- 
+#add the value
+print(x+x)#ICTICTICT
+```
+#### _Output_
+```
+calamba
+enter your nameWenura
+WenuraWenuraWenura
+WenuraWenura
+```
+## Practical 29
 
+#### _Input_
 
+```py
+for letter in"computer":
+    print(letter)
+```
+#### _Output_
 
+```
+c
+o
+m
+p
+u
+t
+e
+r
+```
 
+## Practical 30
 
+#### _Input_
+```py
+fruits=["banana","apple",'mango']
+for f in fruits:
+    print("current fruit: ",f)
+print("goodbye")
+```
 
+#### _Output_
 
-	
+```
+current fruit:  banana
+current fruit:  apple
+current fruit:  mango
+goodbye
+```
+
+## Practical 31
+
+#### _Input_
+```py
+for i in[8,11,12,14]:
+    print("multiplication table of",i)
+    for j in range(1,13):
+        print(i,"*",j,'=',i*j)
+    print("bye")
+```
+
+#### _Output_
+
+```
+multiplication table of 8
+8 * 1 = 8
+8 * 2 = 16
+8 * 3 = 24
+8 * 4 = 32
+8 * 5 = 40
+8 * 6 = 48
+8 * 7 = 56
+8 * 8 = 64
+8 * 9 = 72
+8 * 10 = 80
+8 * 11 = 88
+8 * 12 = 96
+bye
+multiplication table of 11
+11 * 1 = 11
+11 * 2 = 22
+11 * 3 = 33
+11 * 4 = 44
+11 * 5 = 55
+11 * 6 = 66
+11 * 7 = 77
+11 * 8 = 88
+11 * 9 = 99
+11 * 10 = 110
+11 * 11 = 121
+11 * 12 = 132
+bye
+multiplication table of 12
+12 * 1 = 12
+12 * 2 = 24
+12 * 3 = 36
+12 * 4 = 48
+12 * 5 = 60
+12 * 6 = 72
+12 * 7 = 84
+12 * 8 = 96
+12 * 9 = 108
+12 * 10 = 120
+12 * 11 = 132
+12 * 12 = 144
+bye
+multiplication table of 14
+14 * 1 = 14
+14 * 2 = 28
+14 * 3 = 42
+14 * 4 = 56
+14 * 5 = 70
+14 * 6 = 84
+14 * 7 = 98
+14 * 8 = 112
+14 * 9 = 126
+14 * 10 = 140
+14 * 11 = 154
+14 * 12 = 168
+bye
+```
+---
+
+*Compiled By - Wenura Ravindu <br>
+Special thanks - Praveen*
