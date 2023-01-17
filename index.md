@@ -559,6 +559,527 @@ True
 True
 ```
 
+## Practical 15
+
+### Membership operators
+
+#### _Input_
+
+```py
+x=["apple","banana"]
+print("banana" in x) #true
+print("pineapple" in x) #false
+
+print("pineapple" not   in x)#true
+print("apple" not in x) #false
+
+```
+#### _Output_
+```
+True
+False
+True
+False
+```
+
+## Practical 16
+
+### Bitwise operators 
+
+#### _Input_
+```py
+a=60   #60=00111100
+b=13   #13=00001100
+c=0
+
+#Bitwise AND
+c=a&b #12=00001100
+print("Bitwise AND value of c is:",c)
+
+#Bitwise OR
+c=a|b #61=00111101
+print("Bitwise OR value of c is:",c)
+
+#Bitwise XOR
+c=a^b #49=00110001
+print("Bitwise XOR value of c is:",c)
+
+#Bitwise NOT
+c=~a #-51=11000011
+print("Bitwise NOT value of c is:",c)
+
+#Left shift
+c=a<<2 #240=11110000
+print("Left shift  value of c is:",c)
+
+#Right shift
+c=a>>2 #15=00001111
+print("Right shift  value of c is:",c)
+
+print(~2)
+```
+#### _Output_
+```
+Bitwise AND value of c is: 12
+Bitwise OR value of c is: 61
+Bitwise XOR value of c is: 49
+Bitwise NOT value of c is: -61
+Left shift  value of c is: 240
+Right shift  value of c is: 15
+-3
+```
+## Practical 17
+
+### For loop
+
+#### _Input_
+```py
+for x in range(1,6):
+    print(x)
+print("finish")
+```
+#### _Output_
+```
+1
+2
+3
+4
+5
+finish
+```
+## Practical 18
+
+#### _Input_
+
+```py
+for x in range(200,301):
+    print(x)
+print("finish")
+```
+#### _Output_
+```
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280
+281
+282
+283
+284
+285
+286
+287
+288
+289
+290
+291
+292
+293
+294
+295
+296
+297
+298
+299
+300
+finish
+```
+## Practical 19
+
+#### _Input_
+```py
+for x in range (1,11,2):
+    print(x)
+print("finish")
+ ```
+#### _Output_
+```
+1
+3
+5
+7
+9
+finish
+```
+## Practical 20
+
+#### _Input_
+
+```py
+for x in range (0,37,3):
+    print(x)
+print("finish")
+```
+
+#### _Output_
+
+```
+0
+3
+6
+9
+12
+15
+18
+21
+24
+27
+30
+33
+36
+finish
+```
+## Practical 21
+
+#### _Input_
+
+```py
+for x in range(100,1,-2):
+    print(x)
+print("finish")
+```
+
+#### _Output_
+
+```
+100
+98
+96
+94
+92
+90
+88
+86
+84
+82
+80
+78
+76
+74
+72
+70
+68
+66
+64
+62
+60
+58
+56
+54
+52
+50
+48
+46
+44
+42
+40
+38
+36
+34
+32
+30
+28
+26
+24
+22
+20
+18
+16
+14
+12
+10
+8
+6
+4
+2
+finish
+```
+## Practical 22
+
+#### _Input_
+
+```py
+for x in range(50,-1,-5):
+    print(x)
+print("finish")
+```
+
+#### _Output_
+```
+50
+45
+40
+35
+30
+25
+20
+15
+10
+5
+0
+finish
+```
+
+## Practical 23
+
+#### _Input_
+```py
+for x in range(300,199,-2):
+    print(x)
+print("finish")
+```
+#### _Output_
+```
+300
+298
+296
+294
+292
+290
+288
+286
+284
+282
+280
+278
+276
+274
+272
+270
+268
+266
+264
+262
+260
+258
+256
+254
+252
+250
+248
+246
+244
+242
+240
+238
+236
+234
+232
+230
+228
+226
+224
+222
+220
+218
+216
+214
+212
+210
+208
+206
+204
+202
+200
+finish
+```
+## Practical 24
+
+#### _Input_
+```py
+animals=["cat","dog","fish"]
+for a in animals :
+    print(a)
+```
+
+#### _Output_
+```
+cat
+dog
+fish
+```
+## Practical 25
+
+#### _Input_
+```py
+n1=int(input("input n1"))
+n2=int(input("input n2"))
+if(n1<n2):
+    
+    for x in range(n1,n2,1):
+         
+         if(x%2==0):
+             print(x)
+else:
+    
+ print("invalid input")
+ ```
+
+#### _Output_
+
+```
+input n112
+input n223
+12
+14
+16
+18
+20
+22
+```
+## Practical 26
+
+#### _Input_
+
+```py
+n=int(input("enter number of students"))
+for x in range(n):
+   
+    i=input("enter index no-")
+    m=input("enter name-")
+    a=int(input("subject 1-"))
+    b=int(input("subject 2-"))
+    c=int(input("subject 2-"))
+    t=(a+b+c)
+    av=t/3
+    print("Name=",m,"","Average=",av,  "Total=",t)
+```
+#### _Output_
+```
+enter number of students3
+enter index no-1
+enter name-Wenura
+subject 1-80
+subject 2-80
+subject 2-80
+Name= Wenura  Average= 80.0 Total= 240
+enter index no-2
+enter name-Wenura2
+subject 1-81
+subject 2-81
+subject 2-81
+Name= Wenura2  Average= 81.0 Total= 243
+enter index no-3
+enter name-Wenura3
+subject 1-82
+subject 2-83
+subject 2-83
+Name= Wenura3  Average= 82.66666666666667 Total= 248
+```
+## Practical 27
+
+### Multiplication 1 to 12
+
+#### _Input_
+
+```py
+n=int(input("enter number"))
+for i in range(1,13):
+    a=n*i
+    print(n,"x",i,"=",a)
+```
+
+#### _Output_
+```
+enter number2
+2 x 1 = 2
+2 x 2 = 4
+2 x 3 = 6
+2 x 4 = 8
+2 x 5 = 10
+2 x 6 = 12
+2 x 7 = 14
+2 x 8 = 16
+2 x 9 = 18
+2 x 10 = 20
+2 x 11 = 22
+2 x 12 = 24
+```
+
+
+
+
+ 
+
+
+
 
 
 
