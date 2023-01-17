@@ -1189,7 +1189,7 @@ bye
 ```
 ---
 
-*Compiled By - Wenura Ravindu
+*Compiled By - Wenura Ravindu<br>
 Special thanks - Praveen*
 
 
