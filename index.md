@@ -16,8 +16,10 @@
 	my country is Sri lanka
 	Nimal said" he likes ice cream"
 	"Nimal said" he likes ice cream""
+	
 ## Practical 2
 ### Join two string (concatenate)
+
 #### _Input_
 	print("nimal"+"kaml")
 	print("nimal","kaml")
@@ -26,6 +28,7 @@
 	print("nimal\n kaml") 
 	print("nimal\t kaml")
 	print("nimal\t\tkaml")
+	
 #### _Output_
 	nimalkaml
 	nimal kaml
