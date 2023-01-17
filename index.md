@@ -1,4 +1,5 @@
 ## Practical 1
+
 ### Printing function
 	
 #### _Input_
@@ -20,6 +21,7 @@ print('"Nimal said" he likes ice cream""')
 	"Nimal said" he likes ice cream""
 	
 ## Practical 2
+
 ### Join two strings (concatenate)
 
 #### _Input_
@@ -41,6 +43,7 @@ print("nimal\t\tkaml")
 	nimal		kaml
 	
 ## Practical 3
+
 ### Variables
 
 #### _Input_
@@ -70,6 +73,7 @@ print("Address is",p)
 	Address is 119 @ Colombo
 	
 ## Practical 4
+
 ### Casting int() float()
 
 #### _Input_
@@ -101,6 +105,7 @@ I'm Wenura my ICt mark 80 My maths mark 80.0
 ```
 
 ## Practical 5
+
 ### string arrays
 
 #### _Input_
@@ -365,8 +370,196 @@ False
 False
 True
 ```
-    
-    
+## Practical 10
+
+### Arithmetic operators
+
+#### _Input_
+
+```py
+x=10
+y=3
+print("addition=",(x+y))
+print("substraction=",(x-y))
+print("multiplication=",(x*y))
+print("division=",(x/y))#output is a float
+print("exponentiation=",(x**y))
+print("floor division=",(x//y))
+```
+#### _Output_
+```
+addition= 13
+substraction= 7
+multiplication= 30
+division= 3.3333333333333335
+exponentiation= 1000
+floor division= 3
+```
+## Practical 11
+
+### Assignment operators
+
+#### _Input_
+```py
+x=5
+print("x=",x)
+
+x=5
+x-=3
+print("x=",x)
+
+x=5
+x+=3
+print("x=",x)
+
+x=5
+x*=3
+print("x=",x)
+
+x=5
+x/=3
+print("x=",x)
+
+x=5
+x%=3
+print("x=",x)
+
+x=5
+x//=3
+print("x=",x)
+
+x=5
+x**=3
+print("x=",x)
+
+x=5
+x&=3
+print("x=",x)
+
+x=5
+x|=3
+print("x=",x)
+
+x=5
+x^=3
+print("x=",x)
+
+x=5
+x>>=3
+print("x=",x)
+
+x=5
+x<<=3
+print("x=",x)
+```
+#### _Output_
+```
+x= 5
+x= 2
+x= 8
+x= 15
+x= 1.6666666666666667
+x= 2
+x= 1
+x= 125
+x= 1
+x= 7
+x= 6
+x= 0
+x= 40
+```
+## Practical 12
+
+### Comparison operators
+
+#### _Input_
+
+```py
+x=5
+y=3
+print(x==y)#false
+
+x=5
+y=-5
+print(x==y)#false
+
+x=5
+y=5 
+print(x==y)#true
+
+x=5
+y=5.00 #float
+print(x==y)#true
+
+x=5
+y="5" #string
+print(x==y) #false different data types with same value
+
+x=5
+y=3
+print(x!=y)#true
+print(x>y)#true
+print(x<y)#false
+print(x>=y)#true
+print(x<=y)#false
+```
+#### _Output_
+```
+False
+False
+True
+True
+False
+True
+True
+False
+True
+False
+```
+## Practical 13
+
+### Logical operators
+
+#### _Input_
+```py
+x=5
+print(x>3 and x<10)
+print(x>3 or x<4)
+print(not(x>3 and x<10))
+```
+#### _Output_
+```
+True
+True
+False
+```
+## Practical 14
+
+### Identity operators
+
+```py
+x=["apple","banana"]
+y=["orange","grapes"]
+z=x
+print(x is z)#true
+print(x is y)#false
+print(x == y)#false
+
+print(x is not z)#false
+print(x is       not y)#true
+print(x != y)#true
+```
+#### _Output_
+```
+True
+False
+False
+False
+True
+True
+```
+
+
 
 
 
