@@ -1,4 +1,5 @@
 ## Practical 1
+
 ### Printing function
 	
 #### _Input_
@@ -18,6 +19,7 @@
 	"Nimal said" he likes ice cream""
 	
 ## Practical 2
+
 ### Join two string (concatenate)
 
 #### _Input_
@@ -36,6 +38,7 @@
 	 kaml
 	nimal	 kaml
 	nimal		kaml
+	
 ## Practical 3
 
 	
